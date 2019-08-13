@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Shivam's Portfolio</title>
+    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="portfolio-site">
+    <main class="site">
+        <nav class="animated fadeIn">
+            <div class="container nav-items">
+                <div class="logo">
+                    <h2 class="my-logo">SK</h2>
+                </div>
+                <div class="nav-links">
+                    <a class="active" href="index.html">Work</a>
+                    <a href="about.html">About</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+
+
+                <div class="button_container" id="toggle">
+                    <span class="top"></span>
+                    <span class="middle"></span>
+                    <span class="bottom"></span>
+                </div>
+
+                <div class="overlay" id="overlay">
+                    <nav class="overlay-menu">
+                        <ul>
+                            <li>
+                                <a href="index.html">Work</a>
+                            </li>
+                            <li>
+                                <a href="about.html">About</a>
+                            </li>
+                            <li>
+                                <a href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+            </div>
+        </nav>
+
+        <div class="intro-section animated bounceInLeft">
+            <h1>Hi, My Name is Shivam Khandelwal and
+                <br/> I am a Full-Stack Developer from Jaipur, Rajasthan.</h1>
+        </div>
+
+        <div class="showcase-projects container">
+            <div class=" showcase">
+                <div class="showcase-item" data-aos="fade-left" data-aos-delay="100">
+                    <div class="project-screenshot-1">
+
+                    </div>
+                    <div class="content">
+                        <h2>smart brain</h2>
+                        <p>This app, deployed on Heroku, analyses web images and identifies faces within the images. The app was created using React. It Uses the clarifai API for the face recognition, React for the front end, Node & express for the backend and postgresql database for the user sign in and registration process.
+                        </p>
+
+                        <a href="https://mysmartbrain.herokuapp.com/" target="_blank">
+                            <button class="ghost-button button ">Demo</button>
+                        </a>
+                        <a href="https://github.com/shivamk898/smart-brain" target="_blank">
+                            <button class="ghost-button">View on Github</button>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="showcase-item" data-aos="fade-right" data-aos-delay="100">
+                    <div class="project-screenshot-2">
+
+                    </div>
+                    <div class="content">
+                        <h2>Web Calculator App</h2>
+                        <p>The idea was to create a web based calculator. HTML and CSS will be responsible for structure of calculator and javascript will handle the math operations using DOM events.
+                        </p>
+                
+                        <a href="https://github.com/shivamk898/web-calculator" target="_blank">
+                            <button class="ghost-button">View on Github</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="showcase-item" data-aos="fade-left" data-aos-delay="100">
+                    <div class="project-screenshot-3">
+
+                    </div>
+                    <div class="content">
+                        <h2>Robofreinds App</h2>
+                        <p>It is the first app I have created using the React JavaScript library, also making use of the Tachyons CSS framework as well as the users data API 'jsonplaceholder' and image API 'Robohash'.we can find different robo users by their name in search bar. 
+                        </p>
+                        <a href="https://robofreinds.herokuapp.com/" target="_blank">
+                            <button class="ghost-button button">Demo</button>
+                        </a>
+                        <a href="https://github.com/shivamk898/robofreinds" target="_blank">
+                            <button class="ghost-button">View on Github</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="showcase-item" data-aos="fade-right" data-aos-delay="100">
+                    <div class="project-screenshot-4">
+
+                    </div>
+                    <div class="content">
+                        <h2>JS Background Genereator</h2>
+                        <p>This is a simple JavaScript app that generates the CSS code for a linear-gradient page background. This is made mainly with the help of DOM Manipulation techniques. It can generate beautiful backgrounds for websites using different colour inputs.
+    
+                        </p>
+
+                        <a href="https://github.com/shivamk898/js-background-generator" target="_blank">
+                            <button class="ghost-button">View on Github</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="showcase-item" data-aos="fade-left" data-aos-delay="100">
+                    <div class="project-screenshot-5">
+
+                    </div>
+                    <div class="content">
+                        <h2>My Youtube Downloader</h2>
+                        <p>This project helps us to download Youtube vedios directly by just copying URL of vedio from youtube and pasting it in search box of our website. It will convert vedio
+                        format to .mp4 and then download the vedio in our system by connecting through the expressJs server.
+                        </p>
+                        <a href="https://github.com/shivamk898/youtube-Downloader" target="_blank">
+                            <button class="ghost-button">View on Github</button>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="showcase-item" data-aos="fade-right" data-aos-delay="100">
+                    <div class="project-screenshot-6">
+
+                    </div>
+                    <div class="content">
+                        <h2>CRUD Post App made with MERN Stack</h2>
+                        <p>A Single page React and Redux application where users can add, view, update and delete
+                            posts. The main goal of this project was to use Redux for handling the application
+                            state and this uses mongoDB for database, Nodejs and expressJS for backend.
+                        </p>
+                        <a href="https://mern-post-app.herokuapp.com/" target="_blank">
+                            <button class="ghost-button button">Demo</button>
+                        </a>
+                        <a href="https://github.com/shivamk898/mern-post-app" target="_blank">
+                            <button class="ghost-button">View on Github</button>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+    </main>
+    <footer>
+        <div class="container footer">
+            <div class="logo">
+                <h2 class="my-logo">SK</h2>
+            </div>
+            <div class="footer-links">
+                <a href="https://www.linkedin.com/in/shivamkhandelwal1/">
+                    LinkedIn
+                </a>
+                <a href="https://twitter.com/shivamk898">
+                    Twitter
+                </a>
+                <a href="mailto:shivamk898@gmail.com" class="space-right">
+                    Email
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript" src="script.js"></script>
+
+</body>
+
+</html>
